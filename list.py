@@ -1,6 +1,6 @@
 # Python program to check if year is a leap year or not
 
-year = 2000
+year = 2004
 
 # To get year (integer input) from the user
 # year = int(input("Enter a year: "))
