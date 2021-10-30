@@ -9,7 +9,7 @@ def Quick_Sort(low,high):
         Quick_Sort(p+1,high)
 
 def Partition(low, high):
-    p=a[low]
+    s=a[low]
     i,j=low+1,high-1
     done=False
     while(not done):
