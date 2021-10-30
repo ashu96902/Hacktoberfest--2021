@@ -8,12 +8,12 @@ print("Original array = ", arr1)
 
 # reverse using list slicing
 reverse = arr1[::-1]
-print("Reversed array using list slicing = ", reverse)
+print("Reverse array using list slicing = ", reverse)
 
 
 # 2. Using reverse() method
 arr1.reverse()
-print("Reversed array using reverse() method = ", arr1)
+print("Reverse array using reverse() method = ", arr1)
 
 
 # 3. Using reversed() method
