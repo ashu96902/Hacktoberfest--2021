@@ -6,13 +6,13 @@ print(cv2.__version__)
 capture_video = cv2.VideoCapture("video.mp4")
 time.sleep(1)
 count = 0
-background = 0
+bg = 0
 for i in range(60):
 	return_val, background = capture_video.read()
 	if return_val == False :
 		continue
 
-background = np.flip(background, axis = 1) # flipping of the frame
+bg = np.flip(bg, axis = 1) # flipping of the frame
 while (capture_video.isOpened()):
 	return_val, img = capture_video.read()
 	if not return_val :
