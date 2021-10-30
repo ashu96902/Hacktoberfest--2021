@@ -3,7 +3,7 @@
 
 # 1. Using List Slicing to Reverse an Array in Python
 # create an array 'arr'
-arr1 = [1,2,3,4,5]
+arr1 = [1,2,3,4,5,6]
 print("Original array = ", arr1)
 
 # reverse using list slicing
